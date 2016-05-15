@@ -37,7 +37,7 @@ function highlightGrid() {
 			$(this).css({"background-color":"rgb("+colors[0]+","+colors[1]+","+colors[2]+")"});
 		}
 		else {
-			$(this).addClass("highlight");
+			$(this).css({"background-color":"black"});
 		}
 	});
 }
