@@ -1,0 +1,42 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+button {
+	 margin:10px auto;
+	 width:75px;
+	 display:block;
+}
+
+.square {
+	display:inline-block;
+	vertical-align: top;
+	width:240px; 
+	height:240px; 
+	background-color:white;
+}
+
+.highlight {
+	background-color: black;
+}
+
+.row {
+	background-color:blue;
+}
+
+#controlContainer {
+	margin:10px auto;
+	width:150px;
+}
+
+#gridContainer {
+	width:960px;
+	margin:50px auto;
+}
+
+#randomColor {
+	width:18px;
+	height:18px;
+	margin: 0 auto;
+}
