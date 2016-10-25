@@ -79,16 +79,14 @@ module Enumerable
 		map_arr
 	end
 
-	def my_inject(start = self[0])
-		total = start
+	def my_inject(start = nil)
+		start ? total = start : total = self[0]
 		self.my_each_with_index do |elem, i|
-			unless i == 0 && total == self[0]
+			unless i == 0 && start == nil
 				total = yield(total, elem)
 			end
 		end
 		total
 	end
-
-
 
 end
